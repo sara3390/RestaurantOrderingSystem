@@ -49,9 +49,9 @@ namespace RestaurantOrderingSystem.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("ReservationID,ReservationTime")] Reservation reservation)
+        public async Task<IActionResult> Create([Bind("ReservationID,ReservationTime,TableId")] Reservation reservation)
         {
-            if (!ModelState.IsValid) return View(reservation);
+            Console.WriteLine(reservation.TableId);
             _context.Add(reservation);
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));

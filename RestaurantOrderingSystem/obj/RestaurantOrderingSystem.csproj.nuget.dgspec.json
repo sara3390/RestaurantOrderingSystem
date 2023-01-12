@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Sara\\Desktop\\RestaurantOrderingSystem\\RestaurantOrderingSystem\\RestaurantOrderingSystem\\RestaurantOrderingSystem.csproj": {}
+    "C:\\Users\\Sara\\Desktop\\RestaurantOrderingSystem-master\\RestaurantOrderingSystem-master\\RestaurantOrderingSystem\\RestaurantOrderingSystem.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Sara\\Desktop\\RestaurantOrderingSystem\\RestaurantOrderingSystem\\RestaurantOrderingSystem\\RestaurantOrderingSystem.csproj": {
+    "C:\\Users\\Sara\\Desktop\\RestaurantOrderingSystem-master\\RestaurantOrderingSystem-master\\RestaurantOrderingSystem\\RestaurantOrderingSystem.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Sara\\Desktop\\RestaurantOrderingSystem\\RestaurantOrderingSystem\\RestaurantOrderingSystem\\RestaurantOrderingSystem.csproj",
+        "projectUniqueName": "C:\\Users\\Sara\\Desktop\\RestaurantOrderingSystem-master\\RestaurantOrderingSystem-master\\RestaurantOrderingSystem\\RestaurantOrderingSystem.csproj",
         "projectName": "RestaurantOrderingSystem",
-        "projectPath": "C:\\Users\\Sara\\Desktop\\RestaurantOrderingSystem\\RestaurantOrderingSystem\\RestaurantOrderingSystem\\RestaurantOrderingSystem.csproj",
+        "projectPath": "C:\\Users\\Sara\\Desktop\\RestaurantOrderingSystem-master\\RestaurantOrderingSystem-master\\RestaurantOrderingSystem\\RestaurantOrderingSystem.csproj",
         "packagesPath": "C:\\Users\\Sara\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Sara\\Desktop\\RestaurantOrderingSystem\\RestaurantOrderingSystem\\RestaurantOrderingSystem\\obj\\",
+        "outputPath": "C:\\Users\\Sara\\Desktop\\RestaurantOrderingSystem-master\\RestaurantOrderingSystem-master\\RestaurantOrderingSystem\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Sara\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -63,6 +63,10 @@
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[6.0.2, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
             },
             "System.Configuration.ConfigurationManager": {
               "target": "Package",

@@ -6,6 +6,7 @@ namespace RestaurantOrderingSystem.Models {
         
         public Table? Table { get; set; }
         public DateTime ReservationTime { get; set; }
+        public int TableId { get; set; }
 
         [ForeignKey("ApplicationUserID")]
         public ApplicationUser User { get; set; }

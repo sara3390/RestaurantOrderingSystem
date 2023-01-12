@@ -8,19 +8,24 @@
 <h1>Edit</h1>
 
 <h4>Reservation</h4>
-<hr />
+<hr/>
 <div class="row">
     <div class="col-md-4">
         <form asp-action="Edit">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <input type="hidden" asp-for="ReservationID" />
+            <input type="hidden" asp-for="ReservationID"/>
             <div class="form-group">
                 <label asp-for="ReservationTime" class="control-label"></label>
-                <input asp-for="ReservationTime" class="form-control" />
+                <input asp-for="ReservationTime" class="form-control"/>
                 <span asp-validation-for="ReservationTime" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <input type="submit" value="Save" class="btn btn-primary" />
+                <label asp-for="TableId" class="control-label"></label>
+                <input asp-for="TableId" class="form-control"/>
+                <span asp-validation-for="TableId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary"/>
             </div>
         </form>
     </div>
@@ -29,4 +34,3 @@
 <div>
     <a asp-action="Index">Back to List</a>
 </div>
-
